@@ -45,8 +45,8 @@ class _CropPageState extends State<CropPage> with SingleTickerProviderStateMixin
   String baiduApi = "https://aip.baidubce.com/oauth/2.0/token?";
   String baiduRestApi = "https://aip.baidubce.com/rest/2.0/ocr/v1/general_basic?";
   String baiduGrantType = "client_credentials";
-  String baiduClientId = "5BlOGhSFiXoh67GL6mXFWTT3";
-  String baiduClientSecret = "ZveGhgRfCDEXkdbdYkubLbRcAagIkBxI";
+  String baiduClientId = "";//百度ocr api的 clientId,请自行申请
+  String baiduClientSecret = "";//百度ocr api的 Secret
 
   double rotate = 0.0;
   Offset topLeft = new Offset(40.0, 60.0);
